@@ -165,21 +165,21 @@ DCA cut ?!
 \begin{figure}[]
    \centering
    \includegraphics[width=0.99\textwidth]{pics/compPAP}
-   \caption{ \pap~correlation function, centrality 0-10$\%$}
+   \caption{ \pap~correlation function, centrality 0-10$\%$, magnetic field comparison}
    \label{fig:papCorrFun}
  \end{figure}
 
 \begin{figure}[]
    \centering
    \includegraphics[width=0.99\textwidth]{pics/compPAL}
-   \caption{ \pal~correlation function, centrality 0-10$\%$}
+   \caption{ \pal~correlation function, centrality 0-10$\%$, magnetic field comparison}
    \label{fig:palCorrFun}
  \end{figure}
 
 \begin{figure}[]
    \centering
    \includegraphics[width=0.99\textwidth]{pics/compAPL}
-   \caption{ \apl~correlation function, centrality 0-10$\%$}
+   \caption{ \apl~correlation function, centrality 0-10$\%$, magnetic field comparison}
    \label{fig:aplCorrFun}
  \end{figure}
 
@@ -215,9 +215,24 @@ DCA cut ?!
 \subsubsection{Residual correlations}
 
 \subsubsection{\pap~theoretical function}
+
 \paragraph{Gaussian source}
 
+\begin{figure}[]
+   \centering
+   \includegraphics[width=0.99\textwidth]{pics/pap.eps}
+   \caption{\pap~correlation function generated using Lednicky's weights and assuming Gaussian source.}
+   \label{fig:cfpapgaus}
+ \end{figure}
+
 \paragraph{Therminator source}
+
+\begin{figure}[]
+   \centering
+   \includegraphics[width=0.99\textwidth]{pics/paptherm.eps}
+   \caption{\pap~correlation function generated using source from Therminator simulation and Lednicky's weights.}
+   \label{fig:cfpaptherm}
+ \end{figure}
 
 \subsubsection{\pal~and \apl~theoretical function}
 
@@ -255,18 +270,17 @@ DCA cut ?!
 \paragraph{f0 fixed}
 
 \subsection{Systematic uncertainties}
-\begin{itemize}
-\item non-femtoscopic background
-\item fractions (Hijing vs. Therminator)
-\item number of secondaries from material
-\item momentum resolution correction
-\item ALICE magnetic fields ++ vs. - - 
-\item PID
-\item different scenarios for interaction parameters
-\item DCA templates
-\item \pal~vs.~\apl
-\item fitting procedure    
-\end{itemize}
+
+\subsubsection{ non-femtoscopic background}
+\subsubsection{ fractions (Hijing vs. Therminator)}
+\subsubsection{ number of secondaries from material}
+\subsubsection{ momentum resolution correction}
+\subsubsection{ ALICE magnetic fields ++ vs. - - }
+\subsubsection{ PID}
+\subsubsection{ different scenarios for interaction parameters}
+\subsubsection{ DCA templates}
+\subsubsection{ \pal~vs.~\apl}
+\subsubsection{ fitting procedure    }
 
 \subsubsection{Momentum resolution}
 Correction for momentum resolution is taken into account in the fitting procedure. Fit function is smeared with a gaussian function with the width corresponding the momentum resolution for the pairs of interest. Following formula is used:
